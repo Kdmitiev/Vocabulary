@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.eng_bar{
+    display:flex;
+    width:100%;
+    height:10%;
+    background:#8a508f;
+    /* border-radius:30%; */
+    border-width:10px;
+
+    border-style:solid;
+
+    border-color:rgb(68, 0, 0);
+    /* box-shadow: inset; */
+    
+}
+
+.eng_screen{
+    width:calc(100vw - 19px);
+    height:100vh;
+    background:#2c4875;
+}
+
+.eng_title{
+    color:rgb(255, 255, 255);
+    
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+    
+}
+
+#button{
+    color:#2c4875;
+    width:50
+}
+#button:hover{
+    cursor: pointer;
+}
