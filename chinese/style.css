@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.title{
+    width: 1440;
+    height: 136;
+    background-color: #F18181;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.font-size-32 {
+    font-size: 32px;
+    font-weight: 650;
+    font-family: 'Inspiration';
+    font-style: normal;
+    
+}
+
+
+.block-1 {
+    width: 80vw;
+    height: 70vh;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.block-1 img {
+    width: 40vw;
+}
