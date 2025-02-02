@@ -22,7 +22,7 @@
 .text1 {
     padding-top: 3vw;
     color: black;
-    font-family: "Inter", serif;
+    font-family: "Bahnschrift";
     font-weight: 800;
     text-align: left;
     width: 50%;
@@ -31,7 +31,7 @@
 
 .text2 {
     color: black;
-    font-family: "Inter", serif;
+    font-family: "Bahnschrift";
     font-size: 1.5em;
     font-weight: 500;
     text-align: left;
@@ -50,31 +50,35 @@
 .eng-word {
     padding-top: 1vw;
     color: black;
-    font-family: "Inter", serif;
+    font-family: "Bahnschrift";
     font-size: 1.5em;
     font-weight: 800;
 }
 
 .eng-word-translation-btn {
     padding-top: 1vw;
-    color: rgb(209, 0, 216);
-    font-family: "Inter", serif;
+    color: rgb(250, 104, 255);
+    font-family: "Bahnschrift";
+    text-decoration: underline;
     font-size: 1.5em;
     font-weight: 800;
+    width: 380px;
 }
 
 .rus-word-translation-btn {
     padding-top: 1vw;
-    color: rgb(209, 0, 216);
-    font-family: "Inter", serif;
+    color: rgb(250, 104, 255);
+    font-family: "Bahnschrift";
     font-size: 1.5em;
     font-weight: 800;
+    text-decoration: underline;
+    width: 350px;
 }
 
 .rus-word {
     padding-top: 1vw;
     color: black;
-    font-family: "Inter", serif;
+    font-family: "Bahnschrift";
     font-size: 1.5em;
     font-weight: 800;
 }
@@ -88,7 +92,7 @@
     font-style: normal;*/
     /* Frame 10 */
     color: rgb(255, 255, 255);
-    font-family: "Inter", serif;
+    font-family: "Bahnschrift";
     font-size: 3em;
     font-style: normal;
 }
@@ -98,7 +102,11 @@
     width: 50
 }
 
-#button:hover {
+.rus-word-translation-btn:hover {
+    cursor: pointer;
+}
+
+.eng-word-translation-btn:hover {
     cursor: pointer;
 }
 
