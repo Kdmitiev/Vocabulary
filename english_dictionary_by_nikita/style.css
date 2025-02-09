@@ -65,14 +65,14 @@
     width: 380px;
 }
 
-.rus-word-translation-btn {
+.new-word-btn {
     padding-top: 1vw;
     color: rgb(250, 104, 255);
     font-family: "Bahnschrift";
     font-size: 1.5em;
     font-weight: 800;
     text-decoration: underline;
-    width: 350px;
+    width: 500px;
 }
 
 .rus-word {
@@ -102,7 +102,7 @@
     width: 50
 }
 
-.rus-word-translation-btn:hover {
+.new-word-btn:hover {
     cursor: pointer;
 }
 
