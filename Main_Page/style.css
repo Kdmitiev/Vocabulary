@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5em;
+    background: #ADC4FF;
+    /* border-radius:30%; */
+    /* box-shadow: inset; */
+}
+
+.eng_screen {
+    width: calc(100vw - 19px);
+    height: 100vh;
+}
+
+.text1 {
+    padding-top: 3vw;
+    color: black;
+    font-family: "Bahnschrift";
+    font-weight: 800;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.text2 {
+    padding-top: 3vw;
+    color: black;
+    font-family: "Bahnschrift";
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.img1 {
+    display: block;
+    width: 700px;
+    justify-content: left;
+    padding-top: 1vw;
+    padding-left: 24.8vw;
+}
+
+.img2 {
+    display: block;
+    width: 200px;
+
+}
+
+.eng-word {
+    padding-top: 1vw;
+    color: black;
+    font-family: "Bahnschrift";
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.eng-word-translation-btn {
+    padding-top: 1vw;
+    user-select: none;
+    color: rgb(250, 104, 255);
+    font-family: "Bahnschrift";
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: 800;
+    width: 380px;
+}
+
+.new-word-btn {
+    padding-top: 1vw;
+    user-select: none;
+    color: rgb(250, 104, 255);
+    font-family: "Bahnschrift";
+    font-size: 1.5em;
+    font-weight: 800;
+    text-decoration: underline;
+    width: 500px;
+}
+
+.rus-word {
+    padding-top: 1vw;
+    color: black;
+    font-family: "Bahnschrift";
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.main_title {
+    /*color:rgb(255, 0, 0);
+    
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;*/
+    /* Frame 10 */
+    
+    color: rgb(0, 0, 0);
+    font-family: "Bahnschrift";
+    font-size: 3em;
+    font-style: normal;
+}
+
+#button {
+    color: #2c4875;
+    width: 50
+}
+
+.new-word-btn:hover {
+    cursor: pointer;
+}
+
+.eng-word-translation-btn:hover {
+    cursor: pointer;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 1vw;
+    
+}

@@ -57,6 +57,7 @@
 
 .eng-word-translation-btn {
     padding-top: 1vw;
+    user-select: none;
     color: rgb(250, 104, 255);
     font-family: "Bahnschrift";
     text-decoration: underline;
@@ -67,6 +68,7 @@
 
 .new-word-btn {
     padding-top: 1vw;
+    user-select: none;
     color: rgb(250, 104, 255);
     font-family: "Bahnschrift";
     font-size: 1.5em;

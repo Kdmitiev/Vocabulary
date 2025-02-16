@@ -1,5 +1,7 @@
-let get_eng_word = document.querySelector('.eng-word-translation-btn');
+let get_eng_word = document.querySelector('.new-word-btn');
 let eng_word =  document.querySelector('.eng-word');
+let translate_btn =  document.querySelector('.eng-word-translation-btn');
+let rus_word = document.querySelector('.rus-word');
 
 const words = `1. ability - способность  
 2. able - способный  
@@ -325,12 +327,6 @@ function getRandomInt(min, max) {
 console.log(words_as_list)
 
 
-
-
-
-console.log(get_eng_word);
-console.log("вава");
-
 function get_new_word(){
     a_word = get_word_by_index_as_list(getRandomInt(0,words_as_list.length))
 
@@ -338,4 +334,10 @@ function get_new_word(){
     eng_word.textContent = a_word[0];
 }
 
+function show_translation(){
+    try{ rus_word.textContent = a_word[1] }
+    catch{ null }
+}
+
 get_eng_word.addEventListener("click", get_new_word);
+translate_btn.addEventListener("click", show_translation);
