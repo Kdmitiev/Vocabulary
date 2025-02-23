@@ -121,8 +121,10 @@
 }
 
 .panel {
+    width: 50%;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
     padding-top: 1vw;
     
