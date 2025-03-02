@@ -73,13 +73,18 @@
 }
 .rectangle{
     background-color: #D9D9D9;
-    padding: 5px;
+    padding: 15px;
 }
 .red-rectangle{
     width: 15vw;
     background-color: #F18181;
     text-align: center;
     padding: 15px ;
+    border-radius: 30px;
+}
+.bg-btn-black {
+    background-color: rgb(133, 71, 71);
+    padding: 15px;
     border-radius: 30px;
 }
 .block-4{
@@ -109,7 +114,7 @@
     align-items: center;
     justify-content: space-between;
     font-size: 24px;
-    font-weight: 650;
+    font-weight: 750;
     font-family: 'Inspiration';
     font-style: normal;
 }

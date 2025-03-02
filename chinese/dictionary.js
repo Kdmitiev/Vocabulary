@@ -1,22 +1,34 @@
-let chineseWord = ".chine-word";
-let russianTranslation = ".rus-word";
-let wordList = [];
-const initialDictionary = [
-    { chinese: "你好", russian: "Привет" },
-    { chinese: "谢谢", russian: "Спасибо" },
-    { chinese: "再见", russian: "До свидания" },
-    { chinese: "我爱你", russian: "Я тебя люблю" }
-  ];
-  
-  // Запускаем инициализацию словаря после загрузки страницы.
-  document.addEventListener('DOMContentLoaded', function() {
-    initializeDictionary(initialDictionary);
+const dictionary = {
+  "Привет": "你好",
+  "Мир": "世界",
+  "Солнце": "太阳",
+  "Дом": "家",
+  "Книга": "书",
+  "Ручка": "笔",
+  "Стол": "桌子",
+  "Стул": "椅子",
+  "Телефон": "电话",
+  "Компьютер": "电脑"
+};
+
+document.addEventListener("DOMContentLoaded", function() {
+  const rusWordButton = document.querySelector(".rus-word");
+  const chineWordButton = document.querySelector(".chine-word");
+  let currentRusWord = ""; // Переменная для хранения текущего русского слова
+
+  rusWordButton.addEventListener("click", function() {
+      const rusWords = Object.keys(dictionary);
+      const randomIndex = Math.floor(Math.random() * rusWords.length);
+      currentRusWord = rusWords[randomIndex];
+      rusWordButton.textContent = currentRusWord; // Выводим русское слово на кнопку
   });
 
-  function getRandomWord() {
-    if (wordList.length === 0) {
-      return null; 
-    }
-    const randomIndex = Math.floor(Math.random() * wordList.length);
-    return wordList[randomIndex];
-  }
+  chineWordButton.addEventListener("click", function() {
+      if (currentRusWord) {
+          const chineWord = dictionary[currentRusWord];
+          if (chineWord) {
+              chineWordButton.textContent = chineWord; // Выводим китайский перевод на кнопку
+          } 
+      } 
+  });
+});
