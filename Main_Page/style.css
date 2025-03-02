@@ -14,6 +14,20 @@
     /* box-shadow: inset; */
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 20em;
+    border-width: 8px;
+    background: #ADC4FF;
+    border:solid;
+    border-width:3px;
+    /* border-radius:30%; */
+    /* box-shadow: inset; */
+}
+
 .eng_screen {
     width: calc(100vw - 19px);
     height: 100vh;
@@ -121,7 +135,7 @@
 }
 
 .panel {
-    width: 50%;
+    width: 50vw;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
