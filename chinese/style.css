@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     border: none;
+    font-size: 2vh;
 }
 
 .title{
@@ -35,19 +36,85 @@
 }
 
 .block-1 img {
-    width: 40vw;
+    width: 50%;
 }
+
 .block-2{ 
     width: 80vw;
     height: 70vh;
     margin: 100px auto;
+    margin-top: 0vw;
     display: flex;
     flex-direction:row;
     align-items: center;
     justify-content: space-between;
 }
-.block-2 img {
-    width: 45vw;
-    
+.block-2 p {
+    width: 40%;
+    font-size: 2em;
 }
+.block-2 img {
+    height: 100%;
 
+}
+.line {
+    width: 100%;
+    border-top: 3px solid black;
+    height: 1px;
+}
+.block-3 {
+    width: 80vw;
+    height: 50vh;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rectangle{
+    background-color: #D9D9D9;
+    padding: 15px;
+}
+.red-rectangle{
+    width: 15vw;
+    background-color: #F18181;
+    text-align: center;
+    padding: 15px ;
+    border-radius: 30px;
+}
+.bg-btn-black {
+    background-color: rgb(133, 71, 71);
+    padding: 15px;
+    border-radius: 30px;
+}
+.block-4{
+    width: 80vw;
+    height: 20vh;
+    margin: 10px auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrows{
+    width: 80vw;
+    height: 10vh;
+    margin: 20px auto;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.buttons{
+    width: 50vw;
+    height: 80vh;
+    margin: 20px auto;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 750;
+    font-family: 'Inspiration';
+    font-style: normal;
+}
